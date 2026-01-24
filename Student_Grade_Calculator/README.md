@@ -5,7 +5,6 @@ This Python program takes a student's marks, validates them, assigns a grade (A�
 
 ---
 
-
 ## 📌 Project Overview
 A simple, friendly Python program that takes a student's marks and returns a grade (A–F) with an encouraging message. It demonstrates:
 - `if-elif-else` grading logic
@@ -34,8 +33,7 @@ A simple, friendly Python program that takes a student's marks and returns a gra
 - `test_cases.txt`
 - `screenshots/` (add your PNG screenshots here)
 5. **Run the program** in VS Code terminal:
-```bash
-python grade_calculator.py
+- `python grade_calculator.py`
 
 ---
 
@@ -57,7 +55,8 @@ The program assigns grades based on the following rules:
 
 Example program runs are saved in the **screenshots/** folder:
 
-- [screenshot1.png](screenshot1.png)
+- [screenshot1.png](screenshot1.png)  
+  
 
 ---
 
@@ -76,6 +75,7 @@ View the main program file:
 ---
 
 ## ✅ Example Output
+
 - [screenshot1.png](screenshot1.png)
 - [screenshot2.png](screenshot2.png)
 - [screenshot3.png](screenshot3.png)
@@ -90,4 +90,3 @@ View the main program file:
 - How to validate user input using a `while` loop
 - How to encapsulate logic in functions
 - How to organize a project with README, test cases, and screenshots
-
