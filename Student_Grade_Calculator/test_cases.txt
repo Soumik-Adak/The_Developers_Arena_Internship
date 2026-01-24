@@ -1,0 +1,24 @@
+
+---
+
+## test_cases.txt
+
+```txt
+# Boundary tests
+Name=TestA, Marks=90 -> Grade=A, Message=Outstanding work! You’re mastering the material. 🌟
+Name=TestB, Marks=89 -> Grade=B, Message=Very good! Keep it up and aim even higher. 👍
+Name=TestC, Marks=70 -> Grade=C, Message=Good effort—review a few topics and you’ll level up. 💪
+Name=TestD, Marks=60 -> Grade=D, Message=You’re close—focus on weak areas and practice more. 📚
+Name=TestF, Marks=0  -> Grade=F, Message=Don’t be discouraged—seek help, revise, and try again. 🚀
+Name=Max, Marks=100  -> Grade=A
+
+# Typical inputs
+Name=Priya, Marks=85 -> Grade=B
+Name=Aarav, Marks=72 -> Grade=C
+Name=Neha, Marks=63 -> Grade=D
+Name=Ravi, Marks=58 -> Grade=F
+
+# Invalid inputs (program should re-prompt)
+Name=Invalid1, Marks=110 -> Re-prompt until 0–100
+Name=Invalid2, Marks=-5  -> Re-prompt until 0–100
+Name=Invalid3, Marks=eighty -> Re-prompt until numeric
