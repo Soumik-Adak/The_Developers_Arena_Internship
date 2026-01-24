@@ -40,39 +40,54 @@ python grade_calculator.py
 ---
 
 ## 🧠 Grading Logic
-- A: 90–100 → 🌟 Outstanding work!
-- B: 80–89 → 👍 Very Good!
-- C: 70–79 → 💪 Good effort
-- D: 60–69 → 📚 Needs improvement
-- F: 0–59 → 🚀 Don’t be discouraged
 
-📸 Screenshots
-Click below to view program runs:
-- [screenshot1.png]
-- [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+The program assigns grades based on the following rules:
 
-🧪 Test Cases
-Detailed test cases are available here:
-👉 [test_cases.txt]
-
-🐍 Source Code
-View the main program file:
-👉 [grade_calculator.py]
-
-
-
-
-📚 What I Learned
-- How to design grading rules with if-elif-else
-- How to validate user input using a while loop
-- How to encapsulate logic in functions
-- How to organize a project with README, test cases, and screenshots
+| Marks Range | Grade | Message |
+|-------------|-------|---------|
+| 90–100      | A     | 🌟 Outstanding work! You’re mastering the material. |
+| 80–89       | B     | 👍 Very Good! Keep it up and aim even higher. |
+| 70–79       | C     | 💪 Good effort — review a few topics and you’ll level up. |
+| 60–69       | D     | 📚 You’re close — focus on weak areas and practice more. |
+| 0–59        | F     | 🚀 Don’t be discouraged — seek help, revise, and try again. |
 
 ---
 
-✨ This version is **ready to paste** into your repo. The links will work automatically if the files (`grade_calculator.py`, `test_cases.txt`, and `screenshots/`) are in the same folder structure.  
+## 📸 Screenshots
 
-Would you like me to also add **badges** (Python version, project status, license) at the top of the README to make it look even more polished?
+Example program runs are saved in the **screenshots/** folder:
 
-
+- [screenshot1.png](screenshot1.png)
+
+---
+
+## 🧪 Test Cases
+
+Detailed test cases are available here:  
+👉 [test_cases.txt](test_cases.txt)
+
+---
+
+## 🐍 Source Code
+
+View the main program file:  
+👉 [grade_calculator.py](grade_calculator.py)
+
+---
+
+## ✅ Example Output
+- [screenshot1.png](screenshot1.png)
+- [screenshot2.png](screenshot2.png)
+- [screenshot3.png](screenshot3.png)
+- [screenshot4.png](screenshot4.png)
+
+
+---
+
+## 📚 What I Learned
+
+- How to design grading rules with `if-elif-else`
+- How to validate user input using a `while` loop
+- How to encapsulate logic in functions
+- How to organize a project with README, test cases, and screenshots
 
