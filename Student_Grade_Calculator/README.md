@@ -1,5 +1,11 @@
 # Grade Calculator 🎓
 
+Welcome to the **Grade Calculator** project!  
+This Python program takes a student's marks, validates them, assigns a grade (A–F), and displays an encouraging message. It’s designed to strengthen your Python fundamentals with **conditional logic, input validation, functions, and loops**.
+
+---
+
+
 ## 📌 Project Overview
 A simple, friendly Python program that takes a student's marks and returns a grade (A–F) with an encouraging message. It demonstrates:
 - `if-elif-else` grading logic
@@ -31,7 +37,9 @@ A simple, friendly Python program that takes a student's marks and returns a gra
 ```bash
 python grade_calculator.py
 
-🧠 Grading Logic
+---
+
+## 🧠 Grading Logic
 - A: 90–100 → 🌟 Outstanding work!
 - B: 80–89 → 👍 Very Good!
 - C: 70–79 → 💪 Good effort
@@ -40,25 +48,17 @@ python grade_calculator.py
 
 📸 Screenshots
 Click below to view program runs:
-- [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+- [screenshot1.png]
 - [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
 🧪 Test Cases
 Detailed test cases are available here:
-👉 [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+👉 [test_cases.txt]
 
 🐍 Source Code
 View the main program file:
-👉 [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+👉 [grade_calculator.py]
 
-✅ Example Output
-Enter student name: Priya
-Enter marks (0-100): 85
-
-📊 RESULT FOR PRIYA:
-Marks: 85/100
-Grade: B
-Message: Very Good! Keep it up! 👍
 
 
 
