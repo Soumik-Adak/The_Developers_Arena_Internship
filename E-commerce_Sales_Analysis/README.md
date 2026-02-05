@@ -51,7 +51,7 @@ View the main program file:
 
 Example program runs are saved in the **visualizations/** folder:
 
-- [Screenshot1.png](Screenshot1.png)  
+- [Screenshot1.png](visualizations/bar_chart.png)  
   
 
 ---
