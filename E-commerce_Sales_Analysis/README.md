@@ -51,7 +51,9 @@ View the main program file:
 
 Example program runs are saved in the **visualizations/** folder:
 
-- [Screenshot1.png](visualizations/bar_chart.png)  
+- [Product Sales Bar Chart](visualizations/bar_chart.png)
+- [Regional Sales Pie Chart](visualizations/pie_chart.png)
+- [Sales Trend Over Time](visualizations/line_chart.png) 
   
 
 ---
