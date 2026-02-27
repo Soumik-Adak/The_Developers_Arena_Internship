@@ -22,8 +22,71 @@ The objective is to calculate descriptive statistics, analyze distributions, per
 
 ---
 
-## ⚙️ Setup Instructions
-1. **Clone Repository**
-   ```bash
-   git clone https://github.com/yourusername/statistical-business-analysis.git
-   cd statistical-business-analysis
+## 3. Key Metrics
+- **Mean Sales:** ₹123,650.48  
+- **Median Sales:** ₹97,955.50  
+- **Mode Sales:** ₹6,540  
+- **Standard Deviation:** ₹100,161.09  
+- **95% Confidence Interval for Mean Sales:** (₹103,776.35 , ₹143,524.61)  
+
+---
+
+## 4. Insights
+- Sales distribution is **right-skewed**, with large transactions inflating the mean.  
+- **Quantity (0.69)** and **Price (0.65)** both strongly correlate with Total Sales.  
+- **T-test (East vs West):** Significant difference in mean sales (p = 0.0496).  
+- **ANOVA (Regions):** No significant difference across all regions (p = 0.097).  
+- **Two-way ANOVA (Region + Product):** No significant effect of region or product (p > 0.13).  
+- **Regression Analysis:**  
+  - R² = 0.884 → Model explains 88.4% of variance in sales.  
+  - Quantity has a stronger impact on sales than price.  
+
+---
+
+## 5. Technical Approach
+- **Data Loading:** Used pandas `read_csv()` to import dataset.  
+- **Exploration:** Checked shape, columns, and data types.  
+- **Cleaning:** Removed missing values and duplicates.  
+- **Analysis:**  
+  - Descriptive statistics (`mean()`, `median()`, `mode()`, `std()`)  
+  - Distribution analysis (histogram, Shapiro-Wilk test)  
+  - Correlation (`corr()`, seaborn heatmap)  
+  - Hypothesis testing (t-test, ANOVA, two-way ANOVA, chi-square)  
+  - Confidence intervals (scipy.stats)  
+  - Regression modeling (statsmodels OLS)  
+- **Reporting:** Exported results into CSV, TXT, and DOCX formats for recruiter-ready documentation.  
+
+---
+
+## 6. Recommendations
+- Focus on **increasing units sold** (quantity) as the strongest driver of revenue.  
+- Use **bundling and promotions** to boost sales volume.  
+- Apply **regional strategies** where significant differences exist (East vs West).  
+- Align inventory planning with **seasonal peaks**.  
+- Carefully manage pricing strategies — quantity drives revenue more strongly than price.  
+
+---
+
+## 7. Project Structure
+- `statistical_analysis.ipynb` → Notebook with all statistical analysis  
+- `sales_data.csv` → Sales dataset  
+- `requirements.txt` → Python dependencies  
+- `hypothesis_test_result.txt` → Hypothesis test outputs  
+- `statistical_report.csv` → Structured summary of results  
+- `statistical_report.docx` → Final recruiter-ready document  
+- `README.md` → Documentation and screenshots  
+
+---
+
+## 8. Technical Details
+- **Libraries Used:** pandas, numpy, matplotlib, seaborn, statsmodels, scipy, plotly  
+- **Data Structures:** DataFrames, groupby aggregations, pivot tables  
+- **Algorithms:**  
+  - Descriptive statistics  
+  - Shapiro-Wilk normality test  
+  - Pearson correlation  
+  - T-test, ANOVA, Chi-square  
+  - Confidence intervals  
+  - OLS regression  
+
+
