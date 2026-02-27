@@ -1,0 +1,26 @@
+Hypothesis Testing Results
+--------------------------
+
+T-test (East vs West):
+t-statistic = 2.02
+p-value = 0.0496
+Interpretation: Significant difference in mean sales between East and West regions (p < 0.05).
+
+One-way ANOVA (Regions):
+F-statistic = 2.16
+p-value = 0.097
+Interpretation: No significant difference in mean sales across all regions (p > 0.05).
+
+Two-way ANOVA (Region + Product):
+Region effect: F = 1.85, p = 0.144
+Product effect: F = 1.81, p = 0.133
+Interpretation: Neither region nor product shows a statistically significant effect on sales.
+
+Confidence Interval (95% for Mean Sales):
+Range = (103,776.35 , 143,524.61)
+Interpretation: True mean sales likely fall within this interval, with ~±20K margin of error.
+
+Summary:
+- Regional pairwise differences exist (East vs West), but overall regional averages are consistent.
+- Product categories do not significantly differ in average sales.
+- Quantity and Price remain the strongest drivers of revenue, confirmed by regression analysis.
